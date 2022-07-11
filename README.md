@@ -1,1 +1,3 @@
 # VistablackBybilibili.github.io
+访问这样域名可以用80端口跳转到域名其他端口
+这样解决了我家公网ip搭建服务器80端口封掉的问题
