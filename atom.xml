@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <id>https://VistablackBybilibili.github.io</id>
+    <title>周某折腾录</title>
+    <updated>2023-04-15T12:32:44.436Z</updated>
+    <generator>https://github.com/jpmonette/feed</generator>
+    <link rel="alternate" href="https://VistablackBybilibili.github.io"/>
+    <link rel="self" href="https://VistablackBybilibili.github.io/atom.xml"/>
+    <subtitle>周某</subtitle>
+    <logo>https://VistablackBybilibili.github.io/images/avatar.png</logo>
+    <icon>https://VistablackBybilibili.github.io/favicon.ico</icon>
+    <rights>All rights reserved 2023, 周某折腾录</rights>
+    <entry>
+        <title type="html"><![CDATA[ChatGpt 无法访问？1020？UP自建服务器帮你解决！]]></title>
+        <id>https://VistablackBybilibili.github.io/chatgpt-wu-fa-fang-wen-1020up-zi-jian-fu-wu-qi-bang-ni-jie-jue/</id>
+        <link href="https://VistablackBybilibili.github.io/chatgpt-wu-fa-fang-wen-1020up-zi-jian-fu-wu-qi-bang-ni-jie-jue/">
+        </link>
+        <updated>2023-01-29T10:52:55.000Z</updated>
+        <summary type="html"><![CDATA[<p>相信这些裸连访问chatgpt的人可能最近遇到了CloudFlare的1020<br>
+包括我也一样</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>相信这些裸连访问chatgpt的人可能最近遇到了CloudFlare的1020<br>
+包括我也一样</p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://VistablackBybilibili.github.io/post-images/1674993426766.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>或者显示不支持当前国家<br>
+这是我就搭建了一个用于代理服务器，很好的解决了这个问题。所以教程还有我的代理服务器分享给大家<br>
+首先需要在你的浏览器安装一个名为“SwitchyOmega”的插件<br>
+Edge浏览器如图</p>
+<!-- more -->
+<figure data-type="image" tabindex="2"><img src="https://VistablackBybilibili.github.io/post-images/1674993797160.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>安装后点击插件图标，鼠标点击“选项”之后选择proxy。之后把代理协议改成socks5代理服务器设置成“tools.itzhou.top”也就是我的服务器，代理端口设置成20170，点击应用选项即可</p>
+<!-- more -->
+<figure data-type="image" tabindex="3"><img src="https://VistablackBybilibili.github.io/post-images/1674994223356.gif" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>这是打开浏览器点击SwitchyOmega的图标选择proxy也就是全局代理就可以打开chatgpt了</p>
+<!-- more -->
+<figure data-type="image" tabindex="4"><img src="https://VistablackBybilibili.github.io/post-images/1674994438258.gif" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>开了全局代理访问国内的网站变慢了怎么办？<br>
+这时就需要让SwitchyOmega智能切换了，教程如下：<br>
+首先点开SwitchyOmega选择“选项“点击”新建选项卡“在弹出的提示框中选择”自动切换模式“在”规则列表设置勾选“AutoProxy”在规则列表网址中填写</p>
+<!-- more -->
+<p><code>https://raw.githubusercontent.com/gfwlist/gfwlist/master/gfwlist.txt</code></p>
+<!-- more -->
+<p>在填写完成后点击”立即更新情景模式“最后在“规则列表规则”中选择proxy下面选择直接连接即可。此时你会发现chatgpt打开会显示1020，此时我们再次打开SwitchyOmega选择“添加条件“，再次选择”添加条件就可以解决了“</p>
+<!-- more -->
+<figure data-type="image" tabindex="5"><img src="https://VistablackBybilibili.github.io/post-images/1674994706657.gif" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>ps：不仅仅可以使用chatgpt还可以使用Google哦，拿来加速也没问题<br>
+最后感谢你支持一个初中生的up，不要拿去干坏事！！！。作者不定更新，后续会发手机的教程。作者搭建服务器纯属用爱发电，欢迎白嫖点个赞也行。不知能坚持多久总之非常感谢你阅读再见</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[[低成本]用ESP8266实现远程开机]]></title>
+        <id>https://VistablackBybilibili.github.io/di-cheng-ben-yong-esp8266-shi-xian-yuan-cheng-kai-ji/</id>
+        <link href="https://VistablackBybilibili.github.io/di-cheng-ben-yong-esp8266-shi-xian-yuan-cheng-kai-ji/">
+        </link>
+        <updated>2022-12-24T05:12:51.000Z</updated>
+        <summary type="html"><![CDATA[<p><code>ESP8266</code>实现远程开机的方式有很多种，这无疑是最简单的。<br>
+<code>效果如下</code></p>
+]]></summary>
+        <content type="html"><![CDATA[<p><code>ESP8266</code>实现远程开机的方式有很多种，这无疑是最简单的。<br>
+<code>效果如下</code></p>
+<!-- more -->
+<figure data-type="image" tabindex="1"><img src="https://VistablackBybilibili.github.io/post-images/1671860857318.jpg" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>实现结果如下</p>
+<!-- more -->
+<figure data-type="image" tabindex="2"><img src="https://VistablackBybilibili.github.io/post-images/1671860873445.png" alt="" loading="lazy"></figure>
+<!-- more -->
+<p>以下是代码部分 使用的是<code>Arduino IDE</code></p>
+<!-- more -->
+<pre><code>#include &lt;ESP8266WiFi.h&gt;
+#include &lt;WiFiUdp.h&gt;
+#include &lt;ESP8266WebServer.h&gt;
+
+const char* ssid = &quot;zhou wifi6&quot;;
+const char* password = &quot;asdf2502&quot;;
+
+const uint16_t PORT = 9;  // WoL 包发送到的端口
+const uint8_t MAC[] = {0x00, 0xE0, 0x0C, 0xD3, 0x47, 0xF7};  // 电脑的 MAC 地址
+
+WiFiUDP Udp;
+ESP8266WebServer server(80);
+
+void setup() {
+  Serial.begin(115200);
+  WiFi.begin(ssid, password);
+  while (WiFi.status() != WL_CONNECTED) {
+    delay(500);
+    Serial.print(&quot;.&quot;);
+  }
+  Serial.println(&quot;&quot;);
+  Serial.println(&quot;WiFi connected&quot;);
+  Serial.println(&quot;IP address: &quot;);
+  Serial.println(WiFi.localIP());
+
+  // 初始化 UDP 套接字
+  Udp.begin(PORT);
+
+  // 初始化 HTTP 服务器
+  server.on(&quot;/wakeup&quot;, handleWakeUpRequest);
+  server.begin();
+}
+
+void loop() {
+  server.handleClient();
+}
+
+void handleWakeUpRequest() {
+  // 发送 WoL 包
+  sendWolPacket(MAC);
+  server.send(200, &quot;text/plain&quot;, &quot;Wake-up request sent&quot;);
+}
+
+void sendWolPacket(const uint8_t mac[]) {
+  // 函数体
+  const int packetSize = 102; // WoL 包的大小为 102 字节
+  uint8_t packet[packetSize]; // 创建一个存储 WoL 包的数组
+
+  // 填充 WoL 包
+  memset(packet, 0xff, 6); // 填充前 6 字节
+  for (int i = 0; i &lt; 16; ++i) {
+    memcpy(packet + 6 + (i * 6), mac, 6); // 将 MAC 地址复制到 WoL 包中
+  }
+
+  // 将 WoL 包发送到电脑所在的网络
+  Udp.beginPacket(IPAddress(255, 255, 255, 255), PORT); // 发送到广播地址
+  Udp.write(packet, packetSize);
+  Udp.endPacket();
+}
+</code></pre>
+<p>只要把</p>
+<!-- more -->
+<p><code>const char* ssid = &quot;zhou wifi6&quot;;</code></p>
+<!-- more -->
+<p><code>const char* password = &quot;asdf2502&quot;;</code></p>
+<!-- more -->
+<p><code>const uint8_t MAC[] = {0x00, 0xE0, 0x0C, 0xD3, 0x47, 0xF7};  // 电脑的 MAC 地址</code></p>
+<!-- more -->
+<p>这几个数值替换成你家的</p>
+<!-- more -->
+<p><code>WIFI|WIFI密码|被唤醒电脑的MAC地址即可</code></p>
+<p><code>下面是原理解析</code><br>
+首先，在 setup 函数中，设备会连接到 WiFi 网络，并初始化一个 UDP 套接字和 HTTP 服务器。服务器注册了一个路由器 &quot;/wakeup&quot;，并将处理函数设置为 handleWakeUpRequest。</p>
+<p>在 loop 函数中，服务器会处理任何接收到的 HTTP 请求。如果有人向设备发送 &quot;/wakeup&quot; 的 HTTP 请求，服务器将调用 handleWakeUpRequest 函数。</p>
+<p>在 handleWakeUpRequest 函数中，程序会调用 sendWolPacket 函数来发送 WoL 包，然后返回一个 200 状态码和 &quot;Wake-up request sent&quot; 的文本响应。</p>
+<p>在 sendWolPacket 函数中，程序创建了一个 102 字节的 WoL 包，并将其填充为 0xff，然后将电脑的 MAC 地址复制到 WoL 包中 16 次。然后，使用 UDP 套接字发送 WoL 包到广播地址 (255.255.255.255)。</p>
+]]></content>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[你好]]></title>
+        <id>https://VistablackBybilibili.github.io/hello/</id>
+        <link href="https://VistablackBybilibili.github.io/hello/">
+        </link>
+        <updated>2022-12-17T05:31:47.000Z</updated>
+        <summary type="html"><![CDATA[<p>😀这个网站于2022年12月17日重新搭建而成,原网站是Vista软件分享</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>😀这个网站于2022年12月17日重新搭建而成,原网站是Vista软件分享</p>
+<!-- more -->
+<p>之前因为某些原因,关闭了原网站并停更了一段时间.一直到现在终于有时间出来更新了😀😀</p>
+]]></content>
+    </entry>
+</feed>
